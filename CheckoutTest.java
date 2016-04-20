@@ -32,7 +32,7 @@ public class CheckoutTest {
 		cart.addProduct(prod1);
 		cart.addProduct(prod2);
 		
-		Assert.assertEquals(1.70, bill.calcFinalBill(cart),0.001);
+		Assert.assertEquals(1.10, bill.calcFinalBill(cart),0.001);
 		
 		
 	}
@@ -44,7 +44,7 @@ public class CheckoutTest {
 		cart.addProduct(prod1);
 		cart.addProduct(prod2);
 		
-		Assert.assertEquals(2.05, bill.calcFinalBill(cart),0.001);
+		Assert.assertEquals(1.45, bill.calcFinalBill(cart),0.001);
 		
 		
 	}
