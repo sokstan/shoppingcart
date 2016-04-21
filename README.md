@@ -1,1 +1,1 @@
-# shoppingcart
+A simple shopping app.
